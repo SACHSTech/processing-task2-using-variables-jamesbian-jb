@@ -14,4 +14,4 @@ Consider your drawing from the previous lesson.  Modify it use the `width` and `
 
 ## Submission
 1. Commit and push your code to this repository
-2. Take a screenshot of your work and upload it to the Google Classroom assignment post
+2. Take a screenshot of your work and upload it to the Google Classroom assignment post 

@@ -24,13 +24,21 @@ public class Sketch extends PApplet {
    */
   public void draw() {
 	  
-	// sample code, delete this stuff
-    stroke(128);
-    line(150, 25, 270, 350);  
+    //Rocket parts
+    stroke(122);
+    fill(255,105,105);
+    ellipse(width/2.22f, height/1.23f, width/13.33f, height/6.67f); 
+    ellipse(width/2.86f, height/1.23f, width/13.33f, height/6.67f);
+    fill(245,245,245);
+    stroke(122);
+    ellipse(width/2.5f, height/1.67f, width/5.71f, height/2.67f);
+    
+    //Antenna
+    line(width/2.5f, height/2.96f, width/2.5f, height/2.42f);
 
-    stroke(255);
-    line(50, 125, 70, 50);  
-  }
+    //Window
+    fill(197,224,255);
+    ellipse(width/2.5f, height/1.9f, width/10f, height/10f);
   
-  // define other methods down here.
+}
 }
